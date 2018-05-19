@@ -1,0 +1,16 @@
+{
+	"sample_video_a": {
+		"title": "A great TV show",
+		"creator": "Joe TV",
+		"year": "2018",
+		"description": "A great time is had by all",
+		"filename": "sample_video_a.mp4"
+	},
+	"sample_video_b": {
+		"title": "Another show",
+		"creator": "Cindy Mogul",
+		"year": "2014",
+		"description": "People compete. TO WIN",
+		"filename": "sample_video_b.mp4"
+	}
+}

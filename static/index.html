@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>BUMP TV</title></head>
+<body>
+    <video id="thevideo"></video>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $.when(
+            $.getJSON("metadata.json"),
+            $.getJSON("schedule.json")
+        ).done(function(metadata, schedule) {
+            alert(metadata);
+        });
+    });
+    </script>
+</body>
+</html>
